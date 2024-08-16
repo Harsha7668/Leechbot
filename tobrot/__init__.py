@@ -5,6 +5,7 @@
 import os
 import time
 import socket
+from tobrot.config import Config
 
 socket.setdefaulttimeout(600)
 botStartTime = time.time()
@@ -12,7 +13,7 @@ botStartTime = time.time()
 # the secret configuration specific things
 if bool(os.environ.get("ENV", False)):
     
-from tobrot.config import Config
+
 
 
 # TODO: is there a better way?
