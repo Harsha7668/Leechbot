@@ -12,11 +12,11 @@ botStartTime = time.time()
 
 # the secret configuration specific things
 if bool(os.environ.get("ENV", False)):
-    
+    # Add your code here if you need to handle the case when ENV is set to True.
+    # If there's no code needed, you can add 'pass' to avoid errors.
+    pass
 
-
-
-# TODO: is there a better way?
+# Continue with the rest of your code
 TG_BOT_TOKEN = Config.TG_BOT_TOKEN
 APP_ID = Config.APP_ID
 API_HASH = Config.API_HASH
